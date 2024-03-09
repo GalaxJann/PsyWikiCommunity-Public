@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    app:cardElevation="@dimen/main_card_elevation"
+    app:cardMaxElevation="@dimen/main_card_elevation"
+    app:cardCornerRadius="@dimen/sub_card_corner_radius"
+    app:cardBackgroundColor="@color/main_card_background_color"
+    app:cardPreventCornerOverlap="true">
+
+    <LinearLayout
+        android:id="@+id/linearResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sub_card_margin"
+            android:letterSpacing="0.1"
+            android:padding="@dimen/card_text_padding"
+            android:text="Search result"
+            android:textSize="@dimen/main_card_title_size"
+            app:fontFamily="@font/advent_pro_bold" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/resultSubText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sub_card_margin"
+            android:letterSpacing="0.05"
+            android:padding="@dimen/card_text_padding"
+            android:text="Search result"
+            android:textSize="@dimen/main_card_text_size"
+            app:fontFamily="@font/advent_pro_bold" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

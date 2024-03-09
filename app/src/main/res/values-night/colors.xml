@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Own style -->
+    <color name="main_card_background_color">#212121</color>
+    <color name="sub_card_background_color">#424242</color>
+    <color name="calendar_days_outofmonth">#626262</color>
+    <color name="calendar_days_available">#2E7D32</color>
+    <color name="main_card_text_warning">#FBC02D</color>
+    <color name="main_card_text_caution">#E53935</color>
+    <color name="main_listitem_text_color">#B1B1B1</color>
+    <color name="info_subcard_text_color">#BBBBBB</color>
+    <!-- Statistics -->
+    <color name="stat_text">#CFCFCF</color>
+    <color name="space_line_color">#464646</color>
+</resources>

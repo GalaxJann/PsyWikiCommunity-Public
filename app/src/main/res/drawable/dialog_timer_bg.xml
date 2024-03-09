@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Info: Background also used in dialog_unit! -->
+    <solid
+        android:color="@color/main_card_background_color" />
+    <corners
+        android:radius="@dimen/main_card_corner_radius" />
+    <padding
+        android:left="@dimen/dialog_padding"
+        android:top="@dimen/dialog_padding"
+        android:right="@dimen/dialog_padding"
+        android:bottom="@dimen/dialog_padding" />
+</shape>

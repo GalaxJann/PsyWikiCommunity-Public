@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main dimensions -->
+    <item name="text_title_size" type="dimen">26sp</item>
+    <item name="text_size" type="dimen">18sp</item>
+
+    <!-- Main Card dimensions -->
+    <item name="main_card_elevation" type="dimen">8dp</item>
+    <item name="main_card_margin" type="dimen">16dp</item>
+    <item name="main_card_padding" type="dimen">16dp</item>
+    <item name="main_card_corner_radius" type="dimen">8dp</item>
+    <item name="main_card_title_size" type="dimen">26sp</item>
+    <item name="main_card_subtitle_size" type="dimen">20sp</item>
+    <item name="main_card_subtitle_margin" type="dimen">4dp</item>
+    <item name="main_card_text_size" type="dimen">16sp</item>
+    <item name="main_card_text_margin" type="dimen">4dp</item>
+
+    <!-- Sub Card dimensions -->
+    <item name="sub_card_corner_radius" type="dimen">6dp</item>
+    <item name="sub_card_margin" type="dimen">2dp</item>
+    <item name="sub_card_padding" type="dimen">2dp</item>
+
+    <!-- Recycler CardView dimensions -->
+    <item name="card_margin" type="dimen">6dp</item>
+    <item name="card_text_padding" type="dimen">4dp</item>
+
+    <!-- Effects dimensions -->
+    <item name="effects_title_size" type="dimen">18sp</item>
+    <item name="effects_text_size" type="dimen">16sp</item>
+
+    <!-- SearchActivity dimensions -->
+    <item name="search_input_margin" type="dimen">4dp</item>
+
+    <!-- Dialog dimensions -->
+    <item name="dialog_padding" type="dimen">16dp</item>
+    <item name="dialog_title_size" type="dimen">20sp</item>
+    <item name="dialog_button_margin" type="dimen">12dp</item>
+
+    <!-- Statistics dimensions -->
+</resources>

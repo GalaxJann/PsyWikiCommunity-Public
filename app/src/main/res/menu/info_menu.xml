@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemPsyRedirect"
+        android:icon="@drawable/ic_web_search"
+        android:title="Open in Browser"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itemRemember"
+        android:checkable="true"
+        android:title="Favourite" />
+    <item
+        android:id="@+id/itemTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_timer_24"
+        android:title="Create Timer"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itemEffects"
+        android:title="Subjective Effects" />
+</menu>
